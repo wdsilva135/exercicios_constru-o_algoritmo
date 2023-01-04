@@ -1,0 +1,33 @@
+#Algoritmo "semnome"
+
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno:Wiliam da Silva
+// Data atual  : 11/17/2022
+//
+
+Const
+
+   sal_fixo = 1200
+   comissao = 100
+    P = 0.05
+Var
+
+  carro_vendido, valor_vendas, sal_final  :real
+
+Inicio
+
+    escreval("Entre com o valor das vendas ->")
+    leia(valor_vendas)
+    escreval("Entre com a quantidade de carros vendidos ->")
+    leia(carro_vendido)
+    
+    sal_final <- (sal_fixo + (valor_vendas * P) + (carro_vendido * comissao))
+    
+    
+
+    escreval(" Salario total->", sal_final)
+
+
+
+Fimalgoritmo
